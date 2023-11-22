@@ -13,37 +13,24 @@ body {
 }
 
 .wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
+  max-width: 100%;
   background: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .brand-img {
- position: absolute;
- width: 193px;
- height: 47.64px;
- left: 5%;
- top: 3%;
- align-items: center;
+  width: 50%;
+  max-width: 193px;
+  margin: 2% auto;
 }
 
 .title {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 20%;
   font-size: 4vw;
   font-weight: 500;
   line-height: 1.2;
 }
 
 .text {
-  position: absolute;
-  width: 80%;
-  left: 10%;
-  top: 32%;
   font-size: 1.5vw;
   font-weight: 400;
   line-height: 1.6;
@@ -51,9 +38,9 @@ body {
 
 .app-store-btn,
 .google-play-btn {
-  position: absolute;
-  width: 20%;
-  left: 10%;
+  width: 40%;
+  margin: 2% 5%;
+  display: inline-block;
 }
 
 .app-store-btn img,
@@ -62,11 +49,8 @@ body {
 }
 
 .main-image-container {
-  position: absolute;
-  width: 50%;
-  left: 50%;
-  top: 15%;
-  transform: translateX(-50%);
+  width: 80%;
+  margin: 5% auto;
 }
 
 .main-image-container img {
@@ -74,9 +58,6 @@ body {
   height: auto;
 }
 
-/* Add responsive styles for other images as needed */
-
-/* Media Query for smaller screens */
 @media screen and (max-width: 768px) {
   .title {
     font-size: 5vw;
@@ -86,5 +67,8 @@ body {
     font-size: 2vw;
   }
 
-  /* Add other responsive styles as needed */
+  .app-store-btn,
+  .google-play-btn {
+    width: 80%;
+  }
 }
