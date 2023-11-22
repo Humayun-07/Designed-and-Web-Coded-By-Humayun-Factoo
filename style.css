@@ -7,69 +7,126 @@ html {
 body {
   margin: 0;
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: lato, sans-serif;
   color: #000000;
   background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
 }
 
 .wrapper {
-  max-width: 100%;
+  position: relative;
+  width: 1440px;
+  height: 1379;
+  margin: auto;
   background: rgb(255, 255, 255);
-  text-align: center;
 }
 
 .brand-img {
-  width: 80%;
-  max-width: 193px;
-  margin: 2% auto;
+ position: absolute;
+ width: 193px;
+ height: 47.64px;
+ left: 221px;
+ top: 50.25px;
+ align-items: center;
 }
 
 .title {
-  font-size: 4vw;
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+  font-size: 64px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 67.5px; /* 105.469% */
 }
 
-.text {
-  font-size: 1.5vw;
-  font-weight: 400;
-  line-height: 1.6;
+ .text {
+   position: absolute;
+   width: 394px;
+   height: 96px;
+   left: 221px;
+   top: 403px;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 32px; /* 160% */
 }
 
-.app-store-btn,
+.app-store-btn {
+  position: absolute;
+  width: 138.44px;
+  height: 46.28px;
+  left: 221px;
+  top: 531px;
+}
+
+.app-store-btn img {
+  width: 138.44px;
+  height: 46.28px;
+}
+
 .google-play-btn {
-  width: 80%;
-  margin: 2% 10%;
-  display: inline-block;
+  position: absolute;
+  width: 156.19px;
+  height: 46.28px;
+  left: 381.81px;
+  top: 531px;
 }
 
-.app-store-btn img,
 .google-play-btn img {
-  width: 100%;
+  width: 156.19px;
+  height: 46.28px;
 }
 
 .main-image-container {
-  width: 80%;
-  margin: 5% auto;
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  left: 683.28px;
+  top: 229.73px;
 }
 
 .main-image-container img {
-  width: 100%;
-  height: auto;
+  height: 411.15px;
 }
 
-@media screen and (max-width: 768px) {
-  .title {
-    font-size: 5vw;
-  }
+.cart-img {
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+}
 
-  .text {
-    font-size: 2vw;
-  }
+.home-img {
+  position: absolute;
+  height: 470px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+}
 
-  .app-store-btn,
-  .google-play-btn {
-    width: 90%;
-    margin: 2% 5%;
-  }
+.profile-img {
+  position: absolute;
+  height: 444px;
+  left: 760px;
+  right: 479px;
+  top: 686px;
+}
+
+.orders-img {
+  position: absolute;
+  height: 470px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+}
+
+.product-img {
+  position: absolute;
+  height: 222px;
+  left: 737px;
+  right: 479px;
+  top: 1157px;
 }
