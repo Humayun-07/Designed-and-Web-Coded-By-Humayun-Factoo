@@ -19,7 +19,7 @@ body {
 }
 
 .brand-img {
-  width: 50%;
+  width: 80%;
   max-width: 193px;
   margin: 2% auto;
 }
@@ -38,8 +38,8 @@ body {
 
 .app-store-btn,
 .google-play-btn {
-  width: 40%;
-  margin: 2% 5%;
+  width: 80%;
+  margin: 2% 10%;
   display: inline-block;
 }
 
@@ -69,6 +69,7 @@ body {
 
   .app-store-btn,
   .google-play-btn {
-    width: 80%;
+    width: 90%;
+    margin: 2% 5%;
   }
 }
